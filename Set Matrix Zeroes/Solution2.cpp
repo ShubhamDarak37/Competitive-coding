@@ -36,7 +36,7 @@ public:
             }
         }
         
-        //if 0,0 index is 0 then set the 1st row with zero value
+        //if 0,0 index is 0 then set the 1st row with zero value covering for 0th row as any thing alread zero on zeroth row will set 0,0 index 0 based on above logic
         if(matrix[0][0] == 0)
         {
             for(long rowIdx = 0;rowIdx < matrix[0].size(); rowIdx++)
