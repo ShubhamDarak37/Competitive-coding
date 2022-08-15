@@ -1,6 +1,6 @@
 ## Set Matrix Zeroes:
 
-#### Approach:
+**_Approach:_**
 
 - The Elements in matrix should be made zero **Inplace**.
 - The **zeroth row** and **zeroth column** are used to keep track of elements to be made zero.
@@ -11,7 +11,7 @@
 
 ## Pascal's Triangle:
 
-#### Approach:
+**_Approach:_**
 
 - Initialize 2D vector with given input size of Pascal's traingle.
 - For Every ith Iteration **increase the size of ith row by 1**.
@@ -22,7 +22,7 @@
 
 ## Next Permutation:
 
-#### Approach:
+**_Approach:_**
 
 - First, we observe that for any given sequence that is in descending order, no next larger permutation is possible.
 - We need to find the first pair of two successive numbers a[i]a[i] and a[i-1]a[i−1], from the right, which satisfy a[i] > a[i-1]a[i]>a[i−1].
