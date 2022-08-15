@@ -8,3 +8,9 @@ The Repository is comprised of solutions for coding questions based on respectiv
 
 #### Resources used as pre-requisite before solving the respective question:
 
+## Array - 2:
+
+#### Approaches used:
+
+#### Resources used as pre-requisite before solving the respective question:
+
