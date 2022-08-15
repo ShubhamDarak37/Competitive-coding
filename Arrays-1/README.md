@@ -31,3 +31,8 @@
 - We need the smallest permutation, all numbers to the right of a[i−1] were already sorted in descending order. Furthermore, swapping a[i−1] and a[j] didn't change that order. Therefore, we simply need to reverse the numbers following a[i−1] to get the next smallest lexicographic permutation.
 - **Time complexity: O(n)** 
 - **Space complexity: O(1)**
+
+## Max Subarray (Kadanes Algorithm):
+
+**_Approach:_**
+
