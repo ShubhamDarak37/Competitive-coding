@@ -23,3 +23,30 @@
 - if nums[idx1] > nums2[idx2] swap,  increament idx1,idx2 based on respective positions in both the array.
 - **Time complexity: O(m + n)** 
 - **Space complexity: O(1)**
+
+## Find The Duplicate Number:
+
+**_Approach:_**
+
+#### Solution1.cpp Array Hash Map solution:
+
+- create a temproray array of size n, where orignal array has n + 1 elements
+- iterate through the given array perform temp[nums[idx]]++;
+- check if any temp value is gt than 1, that will be the duplicate element.
+- **Time complexity: O(n)** 
+- **Space complexity: O(n)**
+
+#### Solution2.cpp Negative marking approach:
+
+- same as above approach, instead of increamenting values in new array, mark the indexes -ve in current array itself
+- make sure to use abs() for nums[abs(nums[i])].
+- **Time complexity: O(n)** 
+- **Space complexity: O(1)**
+
+#### Solution2.cpp Floyd's Tortoise and Hare (Cycle Detection):
+
+- Detect loop with H = nums[nums[H]]; T = nums[T] until H!=T;
+- find the loop start point (which is the duplicate number) with H = nums[H];T = nums[T], where T will start from nums[0] until H!=T;
+- **Time complexity: O(n)** 
+- **Space complexity: O(1)**
+
