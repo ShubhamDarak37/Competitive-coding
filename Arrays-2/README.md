@@ -16,3 +16,10 @@
 - swap if A1[i] > A2[j] and rearrange the second array using Insertion sort logic.
 - **Time complexity: O(m * n)** 
 - **Space complexity: O(1)**
+
+#### Solution3.cpp Inplace Sorting approach with GAP strategy:
+
+- Compute gap = ceil((float(m+n)/2)) => idx2, idx1 => 0 for next iterations gap = gap / 2 until gap > 0
+- if nums[idx1] > nums2[idx2] swap,  increament idx1,idx2 based on respective positions in both the array.
+- **Time complexity: O(m + n)** 
+- **Space complexity: O(1)**
