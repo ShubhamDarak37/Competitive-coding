@@ -50,3 +50,23 @@
 - **Time complexity: O(n)** 
 - **Space complexity: O(1)**
 
+## Find Missing and Repeating Number:
+
+**_Approach:_**
+
+#### Solution1.cpp -ve indexing approach:
+
+- Approach is same as above Solution2.cpp Negative marking approachfor Find The Duplicate Number question.
+- for missing element just check which index remains +ve at the end.
+- **Time complexity: O(n)** 
+- **Space complexity: O(1)**
+
+#### Solution2.cpp XOR approach:
+
+- perform xor operation for all the elements in the array
+- perform xor operation for element 1 to n
+- Now xor1 = x ^ y, get the right_set_bit using 2's complement
+- add the elements of array and (1,n) in two separate buckets missing and repeating respectively
+- check which element is missing and which is repeating dirrectly from input array.
+- **Time complexity: O(n)** 
+- **Space complexity: O(1)**
