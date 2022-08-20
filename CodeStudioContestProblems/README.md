@@ -2,6 +2,7 @@
 
 **_Approach:_**
 
+- [Problem link](https://www.codingninjas.com/codestudio/contests/codestudio-weekend-contest-35/5815830/problems/21539?leftPanelTab=0)
 - Get the total time required to reach one end
 - For every Query time get quotient and remainder between query and oneSideTime
 - quotient: direction, Remainder: distance remaining in one go.
