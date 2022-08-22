@@ -30,6 +30,8 @@
 
 #### Solution1.cpp Array Hash Map solution:
 
+
+
 - create a temproray array of size n, where orignal array has n + 1 elements
 - iterate through the given array perform temp[nums[idx]]++;
 - check if any temp value is gt than 1, that will be the duplicate element.
