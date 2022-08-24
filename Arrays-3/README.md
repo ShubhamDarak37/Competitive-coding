@@ -27,3 +27,16 @@
 - perform above logic in a loop until power beomes 0
 - **Time complexity: O(log(n))** 
 - **Space complexity: O(1)**
+
+## Majority Element 
+
+#### Solution 1 where element count is > N/2:
+
+- sort the array
+- keep track of count and max count element while iterating through the for loop
+- **Time complexity: O(nlog(n))** 
+- **Space complexity: O(1)**
+
+#### Solution 2 where element count is > N/3 and can have multiple elements in result:
+
+- same approach as above, just keep the track of count and store multiple elements.
