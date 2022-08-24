@@ -15,3 +15,15 @@
 - mid element indexing = [mid/matrix[0].size()][mid%matrix[0].size()]
 - **Time complexity: O(log(m*n))** 
 - **Space complexity: O(1)**
+
+## Pow (x,n):
+
+**_Approach:_**
+
+#### Solution 1:
+
+- If the order is even, take square of input value hence reducing the power to half.
+- if the order is odd, multiply the input value with result and reduce the power by 1.
+- perform above logic in a loop until power beomes 0
+- **Time complexity: O(log(n))** 
+- **Space complexity: O(1)**
