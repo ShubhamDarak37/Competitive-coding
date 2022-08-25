@@ -60,7 +60,11 @@
 - **Time complexity: O(m*n)** 
 - **Space complexity: O(m*n)**
 
-Reverse Pairs:
+## Reverse Pairs:
+
+**_Approach:_**
+
+#### Solution 1 Merger-Sort
 
 - Divide and conqer approach using mege sort:
 - **Time complexity: O(nlo(n))** 
