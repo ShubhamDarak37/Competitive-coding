@@ -30,6 +30,8 @@
 
 ## Majority Element 
 
+**_Approach:_**
+
 #### Solution 1 where element count is > N/2:
 
 - sort the array
@@ -40,3 +42,20 @@
 #### Solution 2 where element count is > N/3 and can have multiple elements in result:
 
 - same approach as above, just keep the track of count and store multiple elements.
+
+## Unique Paths
+
+**_Approach:_**
+
+#### Solution 1 Recursive approach:
+
+- recursively move either to right or down in the matrix and increase the unique path count if we reach position [m-1][n-1]
+- **Time complexity: exponential for Recursion** 
+- **Space complexity: exponential for recursion as stack is used to keep track of calls**
+
+#### Solution 2 DP approach:
+
+- create a DP matrix and initialize the last row and last column with one as there is only one path possible through those positions you cannot go down from last row and you cannot go right from last column.
+- start iterating matrix backwards [m-2][n-2], this position unique path will be sum of possible paths from down and right positions.
+- **Time complexity: O(m*n)** 
+- **Space complexity: O(m*n)**
