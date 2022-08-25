@@ -59,3 +59,10 @@
 - start iterating matrix backwards [m-2][n-2], this position unique path will be sum of possible paths from down and right positions.
 - **Time complexity: O(m*n)** 
 - **Space complexity: O(m*n)**
+
+Reverse Pairs:
+
+- Divide and conqer approach using mege sort:
+- **Time complexity: O(nlo(n))** 
+- **Space complexity: O(n)**
+
